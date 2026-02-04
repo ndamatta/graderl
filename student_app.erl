@@ -15,7 +15,7 @@ run() ->
         [student_stats:highest_average(Students)]),
 
     io:format("Lowest average: ~p~n",
-        [student_stats:lowest_average(Students)]),//*
+        [student_stats:lowest_average(Students)]),
 
     io:format("Highest grade: ~p~n",
         [student_stats:highest_grade(Students)]),
